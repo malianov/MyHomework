@@ -1,14 +1,26 @@
 # MyHomework
-This gitHub contains my homework.
+This gitHub contains my homework activity.
+> **My homework.**
+>
+| Task | Description | InitialDate | Update |
+| ------ | ------ | ------ | ------ |
+| [Task_1][1] | Hello world!|06.02.2019|06.02.2019|
+| [Task_2][2] | Big/Small|07.02.2019|10.02.2019|
 
-| Task | ShortTaskName | Solution | InitialDate | Update |
-| ------ | ------ | ------ | ------ | ------ |
-| Task_1 | Hello world!| [https://github.com/malianov/MyHomework/tree/master/src/task_1] |06.02.2019|06.02.2019| 
-| Task_2 | Big/Small |[https://github.com/malianov/MyHomework/tree/master/src/task_2]|07.02.2019|10.02.2019| 
-| Task_3 | |[https://github.com/malianov/MyHomework/tree/master/src/task_3]|..2019|..2019| 
-| Task_4 | |[https://github.com/malianov/MyHomework/tree/master/src/task_4]|..2019|..2019| 
-| Task_5 | |[https://github.com/malianov/MyHomework/tree/master/src/task_5]|..2019|..2019| 
-| ...    | |[https://github.com/malianov/MyHomework/tree/master/src/ ...]|..2019|..2019| 
+
+
+> **My quickTask activity (just leave it here).**
+
+| Task | InitialDate | Update |
+| ------ | ------ | ------ |
+| [QuickTasks][0]|06.02.2019|06.02.2019|
 
 Be careful - continuous refactoring :-)
+
+  [0]: https://github.com/malianov/MyHomework/tree/master/src/quickTasks
+  [1]: https://github.com/malianov/MyHomework/tree/master/src/task_1
+  [2]: https://github.com/malianov/MyHomework/tree/master/src/task_2
+  [3]: https://github.com/malianov/MyHomework/tree/master/src/task_2
+  [4]:
+  [5]:
 
