@@ -22,7 +22,6 @@ public class Controller {
     public void processUserInput() {
 
         rnd = Model.rndGeneration(minRnd, maxRnd);
-        System.out.println(rnd);
 
         view.initialMessage(minRnd, maxRnd);
 
