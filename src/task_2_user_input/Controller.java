@@ -69,7 +69,7 @@ public class Controller {
                 view.valueNotInteger();
                 continue;
             }
-            setMinRnd(Integer.parseInt(strInput));
+            setMinRnd(parserToInt(strInput));
             break;
         } while (true);
 
@@ -80,10 +80,18 @@ public class Controller {
                 view.valueNotInteger();
                 continue;
             }
-            setMaxRnd(Integer.parseInt(strInput));
+            if (parserToInt(strInput) < getMinRnd()) {
+              View.minBiggerMax();
+                continue;
+            }
+            setMaxRnd(parserToInt(strInput));
             break;
         } while (true);
 
+    }
+
+    public int parserToInt(String strInput) {
+        return Integer.parseInt(strInput);
     }
 
     public void processUserInput() {

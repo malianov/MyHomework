@@ -15,9 +15,14 @@ public class View {
     public static final String LOW_BOUNDARY = "Please, enter the low boundary: ";
     public static final String UPPER_BOUNDARY = "Please, enter the upper boundary: ";
     public static final String VALUE_NOT_INTEGER = "Your value is not integer. Try again:";
+    public static final String MIN_BIGGER_MAX = "Your new Min value is bigger than entered before Max value. Please, enter a correct value:";
 
     public static void valueNotInteger() {
         System.out.println(VALUE_NOT_INTEGER);
+    }
+
+    public static void minBiggerMax() {
+        System.out.println(MIN_BIGGER_MAX);
     }
 
     public static void initialMessage(int minRnd, int maxRnd) {
