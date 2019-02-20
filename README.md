@@ -13,7 +13,7 @@ This gitHub contains my homework activity.
 
 | Task | InitialDate | Update |
 | ------ | ------ | ------ |
-| [QuickTasks][0]|06.02.2019|06.02.2019|
+| [QuickTasks][0]|06.02.2019|20.02.2019|
 
 Be careful - continuous refactoring :-)
 
