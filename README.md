@@ -6,8 +6,8 @@ This gitHub contains my homework activity.
 | ------ | ------ | ------ | ------ |
 | [Task_1][1] | Hello world!|06.02.2019|06.02.2019|
 | [Task_2][2] | Big/Small|07.02.2019|13.02.2019|
-| [Task_2_user_input][3] | Big/Small+user input for boundaries|15.02.2019|21.02.2019|
-| [Task_3][4] |Input structure with regex |18.02.2019||
+| [Task_2_user_input][3] | Big/Small+user input for boundaries|15.02.2019||
+| [Task_3][4] |Input structure with regex |18.02.2019|21.02.2019|
 
 > **My quickTask activity (just leave it here).**
 
