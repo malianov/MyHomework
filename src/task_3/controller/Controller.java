@@ -64,7 +64,7 @@ public class Controller {
         view.showMessage(NICKNAME);
         do {
             strInput = sc.nextLine();
-            if (!RegexChecker.checkName(strInput)) {
+            if (!RegexChecker.checkNickName(strInput)) {
                 view.showMessage(INPUT_ERROR);
                 continue;
             } else {

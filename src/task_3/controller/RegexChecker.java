@@ -9,6 +9,12 @@ public class RegexChecker {
 
 
     public static boolean checkName(String string) {
+        Pattern pattern = Pattern.compile("^[A-ZА-ЯҐІЇЄa-zа-яґіїє'\\-]{2,30}$");
+        Matcher matcher = pattern.matcher(string);
+        return matcher.find();
+    }
+
+    public static boolean checkNickName(String string) {
         Pattern pattern = Pattern.compile("^[A-ZА-ЯҐІЇЄa-zа-яґіїє'0-9\\-]{2,30}$");
         Matcher matcher = pattern.matcher(string);
         return matcher.find();
@@ -23,7 +29,7 @@ public class RegexChecker {
     }
 
     public static boolean checkComment(String string) {
-        Pattern pattern = Pattern.compile("^[а-яА-ЯёЁa-zA-Z0-9 ]+$");
+        Pattern pattern = Pattern.compile("[a]|[^a]");
         Matcher matcher = pattern.matcher(string);
         return matcher.find();
     }
@@ -35,7 +41,7 @@ public class RegexChecker {
     }
 
     public static boolean checkSecondMobPhone(String string) {
-        Pattern pattern = Pattern.compile("^\\+38\\(\\d{3}\\)\\d{3}-\\d{2}-\\d{2}$|^(.)$");
+        Pattern pattern = Pattern.compile("^\\+38\\(\\d{3}\\)\\d{3}-\\d{2}-\\d{2}$|^(-)$");
         Matcher matcher = pattern.matcher(string);
         return matcher.find();
     }
