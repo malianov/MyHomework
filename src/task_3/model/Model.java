@@ -1,12 +1,9 @@
 package task_3.model;
 
-import java.util.Date;
-
 public class Model {
     private String surname;
     private String name;
     private String patronymic;
-    private String combinedName;
     private String nickname;
     private String comment;
     private String group;
@@ -19,8 +16,7 @@ public class Model {
     private String city;
     private String street;
     private String building;
-    private String apartament;
-    private String combinedAddress;
+    private String apartment;
 
 
     private String input_date;
@@ -147,11 +143,11 @@ public class Model {
     }
 
     public String getApartment() {
-        return apartament;
+        return apartment;
     }
 
-    public void setApartment(String apartament) {
-        this.apartament = apartament;
+    public void setApartment(String apartment) {
+        this.apartment = apartment;
     }
 
     public String getInput_date() {
@@ -191,7 +187,7 @@ public class Model {
                 .append(", ")
                 .append(this.building)
                 .append(", ")
-                .append(this.apartament)
+                .append(this.apartment)
                 .append(".");
         return sb.toString();
     }
@@ -202,6 +198,4 @@ public class Model {
         UNIVERSITY,
         FRIENDS
     }
-
-
 }

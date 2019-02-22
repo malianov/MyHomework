@@ -13,7 +13,7 @@ public class View {
     public static final String PHONE_MOB            = "PhoneMob ";
     public static final String PHONE_MOB_2          = "PhoneMob_2 ";
     public static final String OR_NOT               = ", OR ` - ` ";
-    public static final String PHONE_ADVICE         = "(like +38(050)353-75-92";
+    public static final String PHONE_ADVICE         = "(like +38(050)353-75-92)";
     public static final String EMAIL                = "Email: ";
     public static final String SKYPE                = "Skype: ";
     public static final String ADDRESS_INDEX        = "Address_Index ";
