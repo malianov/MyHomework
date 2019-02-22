@@ -10,6 +10,14 @@ import java.util.Scanner;
 import static task_3.controller.RegexChecker.Checker;
 import static task_3.view.View.*;
 
+/**
+ * This class {@code Controller} represents the Controller layer from MVC model pattern.
+ * Class defines methods and way of working with user input data.
+ *
+ * @author Igor Malianov
+ * https://github.com/malianov/MyHomework/tree/master/src/task_3
+ */
+
 public class Controller {
 
     String strInput;
@@ -22,6 +30,15 @@ public class Controller {
         this.view = view;
     }
 
+    /**
+     * The {@code userInput} method is a void method, which has the following duties:
+     * - Invite the user to enter the required data;
+     * - Receive the data from user;
+     * - Check the entered data for validity;
+     * - If the checking was successfull, the user data are putted into the map with user data.
+     *
+     * This method is called for every required from user data.
+     */
     public void userInput(String exactData, String errorMessage, String mapDataName, Scanner sc, String checkSmth) {
         view.showMessage(exactData);
         do {
@@ -36,6 +53,10 @@ public class Controller {
         } while (true);
     }
 
+    /**
+     * The {@code processUserInput} method is a void method, which has general inviting the user
+     * and list of required data.
+     */
     public void processUserInput() {
         view.showMessage(INVITATION);
         Scanner sc = new Scanner(System.in);
@@ -59,7 +80,10 @@ public class Controller {
         userInput(DATA_OF_ENTERING,     DATA_OF_ENTERING    + INPUT_ERROR,"Input",      sc, "checkDate");
         userInput(DATA_LAST_CHANGES,    DATA_LAST_CHANGES   + INPUT_ERROR,"Edited",     sc, "checkDate");
 
-
+/**
+ * The {@code processUserInput} method is also has some temporal output list of methods,
+ * which have to be refactored into another class.
+ */
 
         System.out.println("Please, check entered information: ");
         System.out.println(SURNAME              + map.get("Surname"));

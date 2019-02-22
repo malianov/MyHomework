@@ -1,5 +1,14 @@
 package task_3.model;
 
+/**
+ * This class {@code Model} represents the Model layer from MVC model pattern.
+ * Class defines data which have to be pushed to the database and corresponding
+ * methods - getters and setters.
+ *
+ * @author Igor Malianov
+ * https://github.com/malianov/MyHomework/tree/master/src/task_3
+ */
+
 public class Model {
     private String surname;
     private String name;
@@ -17,8 +26,6 @@ public class Model {
     private String street;
     private String building;
     private String apartment;
-
-
     private String input_date;
     private String edited_date;
 
@@ -166,6 +173,10 @@ public class Model {
         this.edited_date = edited_date;
     }
 
+    /**
+     * The {@code nameCombining} method is a method, which combines "surname" with
+     * first characters of "name" and "patronymic" name. Returns a String.
+     */
     public String nameCombining() {
         StringBuilder sb = new StringBuilder();
         sb.append(this.surname)
@@ -177,6 +188,10 @@ public class Model {
         return sb.toString();
     }
 
+    /**
+     * The {@code addressCombining} method is a method, which combines "index",
+     * "city", "street", "building" and "apartment" into a single String.
+     */
     public String addressCombining() {
         StringBuilder sb = new StringBuilder();
         sb.append(this.index)
@@ -192,6 +207,9 @@ public class Model {
         return sb.toString();
     }
 
+    /**
+     * The {@code Group} is a Enum with a definition of user group.
+     */
     public enum Group {
         HOME,
         WORK,

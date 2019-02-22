@@ -5,18 +5,21 @@ import java.util.regex.Pattern;
 
 import static task_3.model.Model.Group.*;
 
+/**
+ * This class {@code RegexChecker} represents the user input immediate validation.
+ *
+ * @author Igor Malianov
+ * https://github.com/malianov/MyHomework/tree/master/src/task_3
+ */
+
 public class RegexChecker {
 
     static Pattern pattern;
 
-    public static boolean checkGroup(String string) {
-        if (string.equals(FRIENDS.name()) | string.equals(HOME.name()) | string.equals(UNIVERSITY.name()) | string.equals(WORK.name())) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
+    /**
+     * The {@code Checker} method is a static method, receives input type and user input.
+     * Based on regular expression the input is being checked. Returns a boolean value.
+     */
     public static boolean Checker(String type, String string) {
 
         if (type.equals("checkName")) {

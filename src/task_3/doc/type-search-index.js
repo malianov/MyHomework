@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"task_3.controller","l":"Controller"},{"p":"task_3.model","l":"Model.Group"},{"p":"task_3.model","l":"Model"},{"p":"task_3.controller","l":"RegexChecker"},{"p":"task_3.view","l":"View"}]
