@@ -14,6 +14,7 @@ This gitHub contains my homework activity.
 | Task | InitialDate | Update |
 | ------ | ------ | ------ |
 | [QuickTasks][0]|06.02.2019|20.02.2019|
+| [Patterns][5]|24.02.2019||
 
 Be careful - continuous refactoring :-)
 
@@ -22,5 +23,6 @@ Be careful - continuous refactoring :-)
   [2]: https://github.com/malianov/MyHomework/tree/master/src/task_2
   [3]: https://github.com/malianov/MyHomework/tree/master/src/task_2_user_input
   [4]: https://github.com/malianov/MyHomework/tree/master/src/task_3
- 
+  [5]: https://github.com/malianov/MyHomework/tree/master/src/patterns
+  
 
