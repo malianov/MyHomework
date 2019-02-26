@@ -14,7 +14,7 @@ This gitHub contains my homework activity.
 | Task | InitialDate | Update |
 | ------ | ------ | ------ |
 | [QuickTasks][0]|06.02.2019|20.02.2019|
-| [Patterns][5]|24.02.2019||
+| [Patterns][5]|24.02.2019|26.02.2019|
 
 Be careful - continuous refactoring :-)
 
