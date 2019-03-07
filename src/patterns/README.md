@@ -8,7 +8,7 @@
 |5. |`Creational` |[Singleton 	     ][4]|
 |6. |`Behavioral` |[Command 	     ][5]|
 |7. |`Behavioral` |[Chain of responsibility 	     ][6]|
-
+|8. |`Behavioral` |[Memento 	     ][7]|
 
 [0]: https://github.com/malianov/MyHomework/tree/master/src/patterns/creational/abstract_factory
 [1]: https://github.com/malianov/MyHomework/tree/master/src/patterns/creational/builder
@@ -17,3 +17,4 @@
 [4]: https://github.com/malianov/MyHomework/tree/master/src/patterns/creational/singleton
 [5]: https://github.com/malianov/MyHomework/tree/master/src/patterns/behavioral/command
 [6]: https://github.com/malianov/MyHomework/tree/master/src/patterns/behavioral/chain_of_responsibility
+[7]: https://github.com/malianov/MyHomework/tree/master/src/patterns/behavioral/memento
