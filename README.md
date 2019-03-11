@@ -9,6 +9,7 @@ This gitHub contains my homework activity.
 | [Task_2_user_input][3] | Big/Small+user input for boundaries|15.02.2019||
 | [Task_3][4] |Input structure with regex |18.02.2019|22.02.2019|
 | [StreamTasks][6] |The short stream tasks solved |01.03.2019||
+| [CalculatorRefactoring][7] |The calculator application refactoring |11.03.2019||
 
 > **My quickTask activity (just leave it here).**
 
@@ -26,4 +27,4 @@ Be careful - continuous refactoring :-)
   [4]: https://github.com/malianov/MyHomework/tree/master/src/task_3
   [5]: https://github.com/malianov/MyHomework/tree/master/src/patterns
   [6]: https://github.com/malianov/MyHomework/tree/master/src/streams
-
+  [7]: https://github.com/malianov/MyHomework/tree/master/src/calculator
