@@ -12,6 +12,7 @@ This gitHub contains my homework activity.
 | [CalculatorRefactoring][7] |The calculator application refactoring |11.03.2019||
 | [ConcurrentModificationException][8] |Example for getting ConcurrentModificationException|15.03.2019||
 | [task_1_block_8_collection][9] |For one turn calculate the quantity of arrayList|15.03.2019||
+| [task_1_block_8_MyArrayListRealization][10] |ArrayList from AbstractList without remove operation|18.03.2019||
 
 > **My quickTask activity (just leave it here).**
 
@@ -32,3 +33,4 @@ Be careful - continuous refactoring :-)
   [7]: https://github.com/malianov/MyHomework/tree/master/src/calculator
   [8]: https://github.com/malianov/MyHomework/tree/master/src/example_for_concurrent_modification_exception
   [9]: https://github.com/malianov/MyHomework/tree/master/src/task_1_block_8_collection
+  [10]: https://github.com/malianov/MyHomework/tree/master/src/task_1_block_8_MyArrayListRealization
