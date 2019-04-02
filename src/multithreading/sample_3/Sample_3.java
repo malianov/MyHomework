@@ -20,6 +20,7 @@ public class Sample_3 {
         thread.start();
 
         Thread.sleep(5000);
-        thread.interrupt();
+        //thread.stop();          // Deprecated, прерывает тред без лишних вопросов
+        thread.interrupt();     // Это корректный способ попросить тхред прерваться.
     }
 }

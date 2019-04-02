@@ -13,7 +13,7 @@ This gitHub contains my homework activity.
 | [ConcurrentModificationException][8] |Example for getting ConcurrentModificationException|15.03.2019||
 | [task_1_block_8_collection][9] |For one turn calculate the quantity of arrayList|15.03.2019||
 | [task_1_block_8_MyArrayListRealization][10] |ArrayList from AbstractList without remove operation|18.03.2019||
-| [MultiThreading][11] | Conspect from video|01.04.2019||
+| [MultiThreading][11] | Conspect from video|01.04.2019|02.04.2019|
 
 > **My quickTask activity (just leave it here).**
 
